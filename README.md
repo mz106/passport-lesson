@@ -16,7 +16,7 @@ Set up nodemon - add the following to your package.json under "scripts";
     "scripts": "nodemon <your file path>"
 
 
-## Step One - Add Enviromental Variables
+## Step One A - Add Enviromental Variables
 
 Enviromental Variables (EN_VAR):
 a value that is set outside of the program.
@@ -41,7 +41,7 @@ Import out port number in to app.js;
 
     const port = require(process.env.PORT);
 
-## Step Two - Set up our server (i.e. connect out app to the internet)
+## Step One B - Set up our server (i.e. connect out app to the internet)
 
 Require express;
 
